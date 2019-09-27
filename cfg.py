@@ -43,14 +43,14 @@ train_name = None # used for name examples and tensorboard logdirs, set None to 
 # data
 batch_size = 8
 data_shape = [64, None]
-data_dir = '/reserve/qianyu/gpu100/qy/datasets/srnet_data'
-i_t_dir = 'i_t_2'
-i_s_dir = 'i_s_1'
-t_sk_dir = 't_sk_2'
-t_t_dir = 't_t_2'
+data_dir = '/reserve/qianyu/datasets/srnet_data'
+i_t_dir = 'i_t'
+i_s_dir = 'i_s'
+t_sk_dir = 't_sk'
+t_t_dir = 't_t'
 t_b_dir = 't_b'
-t_f_dir = 'i_s_2'
-mask_t_dir = 't_sk_tmp_2'
+t_f_dir = 't_f'
+mask_t_dir = 'mask_t'
 example_data_dir = 'examples/labels'
 example_result_dir = 'examples/gen_logs'
 
