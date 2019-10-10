@@ -20,9 +20,9 @@ You can refer to and improve [Synthtext](https://github.com/ankush-me/SynthText)
 
 According to this paper, you need to prepare 2 input images(i_s, i_t) and 4 label images(t_sk, t_t, t_b, t_f)
 
-- `i_s`: standard text b rendering on gray background
+- `i_s`: styled text a rendering on background image
 
-- `i_t`: styled text a rendering on background image
+- `i_t`: standard text b rendering on gray background
 
 - `t_sk`: skeletonization of styled text b.
 
