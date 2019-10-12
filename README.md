@@ -40,6 +40,8 @@ In my experiment, I found it easier to train with one more label data(mask_t).
 
 From left to right, from top to bottom are examples of `i_s, i_t, t_sk, t_t, t_b, t_f, mask_t`
 
+This is our code to generate SRNet data: [SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen)
+
 &nbsp;
 ## Train your own dataset
 First clone this project
@@ -55,6 +57,9 @@ Then run `python3 train.py` to start training.
 
 &nbsp;
 ## Predict
+
+This is our pretrained weight: [https://pan.baidu.com/s/1TaliSQ96RtlJLSgpOzkRSA](https://pan.baidu.com/s/1TaliSQ96RtlJLSgpOzkRSA), Extraction code: x3qv
+
 You can predict your own data with
 ```bashrc
 $ python3 predict.py --i_s xxx --i_t xxx --save_dir xxx --checkpoint xxx
