@@ -12,7 +12,7 @@ import numpy as np
 import os
 import cfg
 from utils import *
-from data_gen import srnet_datagen, get_input_data
+from datagen import srnet_datagen, get_input_data
 import argparse
 
 def main():
