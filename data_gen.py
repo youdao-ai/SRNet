@@ -30,13 +30,11 @@ def srnet_datagen():
 
             i_t = cv2.imread(os.path.join(cfg.data_dir, cfg.i_t_dir, name))
             i_s = cv2.imread(os.path.join(cfg.data_dir, cfg.i_s_dir, name))
-            t_sk = cv2.imread(os.path.join(cfg.data_dir, cfg.t_sk_dir, name))
-            t_sk = cv2.cvtColor(t_sk, cv2.COLOR_RGB2GRAY)
+            t_sk = cv2.imread(os.path.join(cfg.data_dir, cfg.t_sk_dir, name), cv2.IMREAD_GRAYSCALE)
             t_t = cv2.imread(os.path.join(cfg.data_dir, cfg.t_t_dir, name))
             t_b = cv2.imread(os.path.join(cfg.data_dir, cfg.t_b_dir, name))
             t_f = cv2.imread(os.path.join(cfg.data_dir, cfg.t_f_dir, name))
-            mask_t = cv2.imread(os.path.join(cfg.data_dir, cfg.mask_t_dir, name))
-            mask_t = cv2.cvtColor(mask_t, cv2.COLOR_RGB2GRAY)
+            mask_t = cv2.imread(os.path.join(cfg.data_dir, cfg.mask_t_dir, name), cv2.IMREAD_GRAYSCALE)
 
             i_t_batch.append(i_t)
             i_s_batch.append(i_s)
